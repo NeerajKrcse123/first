@@ -1,0 +1,50 @@
+.main{
+    padding: 1rem;
+    background-color: red;
+    width: 35%;
+    border-radius: 10px;
+}
+.heading{
+    padding: 1rem;
+    border-radius: 10px;
+
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+}
+.search{
+    display: flex;
+    border-radius: 10px;
+
+    gap: 1rem;
+    margin-top: 1rem;
+    background: white;
+    padding: 10px;
+}
+input{
+    border:none;
+    width: 90%;
+}
+.img{
+    margin-top: 1rem;
+    border-radius: 10px;
+
+    height: 150px;
+    background: blue;
+}
+.btn{
+    margin-top: 0.8rem;
+
+    display: flex;
+    justify-content: center;
+}
+button{
+    width: 50%;
+    border-radius: 10px;
+}
+@media screen  and (max-width:820px){
+    .main{
+        width: 90%;
+        margin: 1rem;
+    }
+}

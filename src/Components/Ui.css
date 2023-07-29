@@ -1,0 +1,43 @@
+.main{
+    width: 80%;
+    margin: auto;
+   top: 50%;
+}
+.input{
+    display: flex;
+    justify-content: space-between;
+}
+.red{
+    background: red;
+    
+}
+.green{
+    padding: 20px 40px;
+    background:green;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.image img{
+    height: 100px;
+    width: 100px;
+}
+.image-name{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.8rem;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.button button{
+    padding: 5px 20px;
+    border: none;
+    border-radius: 3px;
+}
+
+  

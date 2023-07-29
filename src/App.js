@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import Practice from "./Components/Practice";
+// import Header from "./Components/Header";
+// import Addcontact from "./Components/Addcontact";
+// import Contactlist from "./Components/Contactlist";
+// import Contactcard from "./Components/Contactcard";
+import { Routes, Route } from "react-router-dom";
+import Form from "./Components/Form";
+import Signin from "./Components/Signin";
+import Ui from "./Components/Ui";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {" "}
+      {/* <Practice />{" "} */}
+      {/* <Routes>
+        <Route path="/" element={<Form />} />
+        <Route path="/signin" element={<Signin />} />
+      </Routes> */}
+      {/* <Form />
+      <Signin /> */}
+      <Ui/>
     </div>
   );
-}
+};
 
 export default App;
